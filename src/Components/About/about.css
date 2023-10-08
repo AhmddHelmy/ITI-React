@@ -1,0 +1,47 @@
+.about {
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+}
+
+.heading {
+    font-size: 32px;
+    position: relative;
+    color: #f7ea66;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Berkshire Swash";
+    margin-bottom: 40px;
+    z-index: 9;
+    margin-top: 120px;
+}
+
+.about-text p {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 665px;
+    color: #fff;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    z-index: 9;
+}
+
+.btn-bar a {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+    text-align: center;
+    line-height: 24px;
+    color: var(--purple);
+    font-weight: 400;
+    font-family: "Berkshire Swash";
+    padding: 12px;
+    border-radius: 35px;
+    width: 155px;
+    height: 48px;
+    transition: ease all .5s;
+    background: var(--yellow);
+    cursor: pointer;
+}

@@ -1,13 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Berkshire Swash', cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --indigo: #2C0047;
+  --purple: #6f42c1;
+  --yellow: #F7EA66;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 992px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 1140px !important;
+  }
 }

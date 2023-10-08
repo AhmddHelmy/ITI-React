@@ -1,0 +1,61 @@
+.artist-info h2 {
+    font-size: 24px;
+    color: #fff;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Berkshire Swash";
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    z-index: 9;
+}
+
+.artist-info h3 {
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Berkshire Swash";
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.artist-info p {
+    width: 330px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    z-index: 9;
+    width: 80%;
+}
+
+.artist-info ul li a {
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid var(--yellow);
+    float: left;
+    color: var(--yellow);
+    font-size: 16px;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    border-radius: 50%;
+    transition: ease all .5s;
+}
+
+.artist-info ul li a:hover {
+    background-color: var(--yellow);
+    color: #fff;
+    cursor: pointer;
+}
+
+.artist-info ul li a i {
+    color: var(--yellow);
+}
+
+.artist-info ul li a:hover i{
+    color: var(--purple);
+}
